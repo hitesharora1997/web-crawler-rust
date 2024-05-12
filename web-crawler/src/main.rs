@@ -1,5 +1,5 @@
 use html5ever::tokenizer::{BufferQueue, Tag, TagKind, TagToken, Token, TokenSink, TokenSinkResult};
-
+use std::borrow::Borrow;
 #[derive(Debug)]
 struct LinkQueue {
     links: Vec<String>
